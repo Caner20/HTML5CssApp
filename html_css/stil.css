@@ -1,0 +1,208 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+div>span{
+    color: black;
+    font-family:fantasy ;
+    font-weight: 700;
+    font-size:35px ;
+    font-style: italic ;
+}
+
+
+
+.logo{
+    cursor:pointer ;
+    border-radius: 50%;
+    
+}
+
+body {
+    background-color:rgba(0,0,0,0.5);
+    background-position:center;
+    background-attachment: scroll;
+    background-size:cover;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+
+.navbar i{
+    color:black;
+    margin-right: 50px;
+    cursor:pointer;
+    padding:5px;
+
+}
+
+
+.banner{
+    height:100vh;
+    width:100%;
+}
+
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin: 25px;
+    overflow: hidden;
+    font-family:cursive;
+    font-size:20px;
+}
+
+.navbar{
+    border-radius:35px;
+    display:flex;
+    width:90%;
+    margin:auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content:space;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:#fff ;
+    background-color:none;
+    border-radius:65px;
+    border-width: 55px;
+}
+.bas a:hover{
+    background-color:#3C3741;
+    padding-left:15px;
+    }
+
+
+.navbar ul li a{
+    text-decoration:none;
+    color:#fff ;
+    transition: all .3s ease-in;
+}
+
+.icerik1 span{
+    font-size:28px;
+    font-style:italic;
+    color: blue;
+}
+
+.sql{
+    text-align:left;
+    font-family: monospace;
+    font-display:inherit;
+}
+
+.fotter{
+font-size: 15px;
+position:relative;
+margin-left:40%;
+
+}
+
+.icerik1 p{
+    text-align:left;
+    font-family: monospace;
+    font-display:inherit;
+
+}
+
+.icerik1{
+width: 100%;
+position: absolute;
+top: 40%;
+color:white;
+text-align: center;
+
+}
+
+
+.icerik{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color:white;
+    text-align: center;
+    background-image:url(6.png);
+    background-repeat:center;
+    opacity:0.6 ;
+    background-size:100%;
+
+}
+
+.icerik h1{
+    font-size: 55px;
+}
+.icerik p{
+    margin:20px auto;
+}
+
+button a{
+    text-align:center;
+    color:black;
+    text-decoration: none;
+    font-weight: 850;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button{
+    width: 200px;
+    padding:15px 0;
+    border-radius:35px;
+    margin:20px;
+   
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    background-color: #6666b2;
+    font-size:17px;
+    
+}
+button:hover{
+    color:red;
+    transition:1s;
+}
+.navbar{
+    box-shadow:2px 1px;
+    
+    color: #fff;
+}
+
+
+
+.sol_block ul li{
+    position:relative;
+    margin:40px;
+    font-family:cursive;
+    font-size:20px; 
+    display:block;
+    
+}
+
+.sol_block{
+    border-radius:35px;
+    width:225px;
+    align-items:center;
+    justify-content:space;
+    color: black;
+    box-shadow: 2px 1px;
+    columns:20% ;
+    color:white;
+   
+    
+
+}
+
+.sol_block ul li a:focus{
+    background-color:rgb(255, 255, 255);
+    border-bottom:transparent;
+    opacity: 0.4;
+    border-color: red;
+    border-radius: 28px;
+        
+}
+
+.sol_block ul li a{
+    text-decoration:none ;
+    list-style: none;
+    color: black;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Secicileri</title>
+    <link rel="stylesheet" href="stil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <style>
+.banner{
+    width:700;
+    height:250px;
+}
+
+.secici{
+    margin:0px;
+    padding:0px;
+    position:relative;
+    border-style:solid;
+    border-width: 5px;
+    border-color: Black;
+    font-size: 50px;
+    font-variant:inherit;
+    border-bottom-style: solid;
+}
+
+
+#kendin{
+    border-radius: 100px 15px;
+    box-shadow: 4px 22px black;
+    background-color:black;
+    position:absolute;
+    margin:700px 0  0 84px;
+    padding:15px 0 0 0 ;
+    color:blueviolet;
+    text-decoration:none;
+    text-align:center;
+
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar" >
+            <a href="index.html"><img src="3.jpg" alt="" width="100" height="100" class="logo"></a>
+            <span>DEVELOPER</span>
+            <nav>
+            <ul class="bas">
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css_nedir.html">CSS</a></li>
+                <li><a href="hakkında.html">Hakkında</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <i class="fas fa-search"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-dropbox"></i>
+                <i class="fas fa-align-justify"></i>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+<div class="secici">
+
+    <div style="width:410px;height:170px;background-color:white;border: 5px solid #fff;color:black;
+    font:bold 20px tahoma ;text-align:right;padding:130px 0 0 0;position:static;margin:50px 0 0 80px;box-shadow:5px 5px;">....
+    <p style="position:relative;top:-150px;text-align:center;">(<>)Öğe Seçici</p><br>
+    <em style="color:black;position:absolute;left:80px;top:110px;margin-left:1.8em;">Tüm Sayfadaki "p" öğelerini seçer.</em>
+    <b style="color: red;position:absolute;left:80px;top:140px;"> p {
+        text-align: center;
+        color: red;}</b>
+</div>
+   
+
+<div style="width:1100px;height:auto;background-color:white;border: 5px solid #fff;color:black;
+font:bold 20px tahoma ;text-align:right;padding:130px 30px 0 0;position:static;margin:50px 0 0 80px;box-shadow:5px 5px;">....
+<p style="position:relative;top:-150px;text-align:center;">(.)Sınıf Seçici<br></p>
+<em style="color:black;position:absolute;left:80px;top:330px;margin-left:1.8em;">class="center" içeren tüm HTML öğeleri kırmızı olacak ve ortaya hizalanacaktır:</em>
+<b style="color: red;position:absolute;top:380px;left:80px;">.center {text-align: center;color: red;} </b>
+
+<em style="color:black;position:absolute;left:80px;top:450px;margin-left:1.8em ;"> HTML öğeleri ayrıca birden fazla sınıfa atıfta bulunabilir:</em>
+<em style="color:black;position:absolute;left:80px;top:480px;">  Bu örnekte "p" öğesinin stili class="center" ve class="large"'a göre olacak:</em>
+<b style="color: red;position:absolute;top:520px;left:80px;"> <-p>="class"=center large <-/p>     (-) lar tagı göstermek içindir;</b>
+</p>
+
+
+<div style="width:1100px;height:180px;background-color:white;border: 5px solid #fff;color:black;
+font:bold 20px tahoma ;text-align:right;padding:130px 30px 5px 5px;position:absolute;margin:250px 0 0 0;box-shadow:5px 5px;">....
+<p style="position:relative;top:-150px;text-align:center;">(*)Evrensel Seçici<br></p>
+<em style="color:black;position:absolute;left:50px;top:70px;">Evrensel seçici (*) sayfadaki tüm HTML öğelerini seçer.</em>
+<b style="color: red;position:absolute;top:100px;left:50px;">* {text-align: center;color: blue;}</b>
+<br><br><br><br><br>
+</div>
+
+
+<div style="width:1100px;height:350px;background-color:white;border: 5px solid #fff;color:black;
+font:bold 20px tahoma ;text-align:right;padding:130px 30px 5px 5px;position:absolute;margin:500px 0 0 0;box-shadow:5px 5px;">....
+<p style="position:relative;top:-150px;text-align:center;">Gruplama Seçici<br></p>
+<em style="color:black;position:absolute;left:50px;top:70px;">Evrensel seçici (*) sayfadaki tüm HTML öğelerini seçer.</em>
+<b style="color: red;position:absolute;top:100px;left:50px;">h1 {
+    text-align: center;
+    color: red;
+  }
+  <br>
+  h2 {
+    text-align: center;
+    color: red;
+  }
+  <br>
+  p {
+    text-align: center;
+    color: red;
+  } </b><br>
+<p style="position:relative;top: 10px;text-align:left;margin-left:8em;">Böylede Yazılabilir</p>
+<b style="color: red;position:absolute;top:250px;left:50px;">h1, h2, p {
+    text-align: center;
+    color: red;
+  }</b>
+<br><br><br><br><br>
+</div>
+
+<br><br><br><br><br><br><br><br>
+
+</div>
+
+
+   <div style="width:410px;height:170px;background-color: white;border: 5px solid #fff;color:black;
+    font:bold 20px tahoma;text-align:center;padding:130px 0 0 0;position:absolute;top:50px;right:80px;box-shadow:5px 5px;">
+    <p style="position:relative;top:-127px;text-align:center;">(#)Kimlik Seçici</p><br><br>
+    <em style="color: black;position:absolute;right:40px;top:50px;margin-left:0.2em;">HTML öğesinin id niteliğini kullanır.</em>
+    <b style="color: red;position:absolute;right:-5px;top:90px;">#para1 {
+        text-align: center;
+        color: red;}</b>
+</div>
+
+<a id="kendin" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_default"> Kendinde Dene</a>
+    
+    
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</body>
+</html>

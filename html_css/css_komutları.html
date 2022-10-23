@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>CSS Komutları</title>
+    <style>
+
+span{
+   background-color: white;
+   border-radius: 25px 200px; 
+}
+div ul i{
+background-color: white;
+border-radius: 35px;
+}
+
+body{
+    background-repeat: space;
+    background-position:inherit;
+    background-image:url(9.jpg);
+}
+
+.banner{
+    width:700;
+    height:250px;
+}
+.kenar{
+    opacity:0.5;
+    left:22%;
+    width:700px;
+    box-shadow: 2px 2px black;
+    background-color: white;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    border-radius: inherit;
+    border-style:solid;
+    border-width: 3px;
+    border-color:rgba(0,0,0,8);
+}
+.cizgi{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.cizgi1{
+    border-top: 1px dotted red;
+    border-bottom: 1px dotted red;
+}
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar" >
+            <a href="index.html"><img src="3.jpg" alt="" width="100" height="100" class="logo"></a>
+            <span>DEVELOPER</span>
+            <nav>
+            <ul class="bas">
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css_nedir.html">CSS</a></li>
+                <li><a href="hakkında.html">Hakkında</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <i class="fas fa-search"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-dropbox"></i>
+                <i class="fas fa-align-justify"></i>
+            </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="kenar">
+       <h4 style="text-align:center">
+           <strong>Link Özellikleri</strong>
+       </h4> <p><strong><br></strong></p>
+       <p>
+    <strong>a:</strong> " Linkin, sayfa açıldığında tıklanmadan veya ümleç üzerine getirilmeden önceki durumudur."<br>
+    <strong>a:hover:</strong> " Linkin imleç süzerine getirildiğindeki durumudur."<br>
+    <strong>a:active:</strong> " Linkin tıklandığı andaki durumudur."<br>
+    <strong>a:visited</strong> " Linkin tıklandıktan sonraki durumudur."<br>
+       </p> <p><strong><br></strong></p>
+    <hr class="cizgi">
+    <p><strong><br></strong></p>
+       <h4 style="text-align:center">Biçimlendirme</h4>
+       <p><strong><br></strong></p>
+    <strong>color:</strong> " Linkin rengini belirler."<br>
+    <strong>background-color:</strong> " Linkin zemin rengini belirler."<br>
+    <strong>background-image:</strong> " Linkin zeminine resim ekler(Bu animated-gif de olabilir.)"<br>
+    <strong>text-decoration:</strong> " Linkin altının,üstünün vs. çizgili olup olmayacağını belirler."<br>
+    <strong>font-weight:</strong> "  Yazının kalınlık veya inceliğini belirler."<br>
+    <strong>border:</strong> " Linkin etrafına kenarlık ekler."<br>
+    <strong>display:</strong> " Linki içeren hücre , satır vb. istenilen alanın seçilmesini sağlar."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi">
+<p><strong><br></strong></p>
+   <h4 style="text-align:center">Liste Özellikleri</h4>
+   <p><strong><br></strong></p>
+<strong>disk:</strong> " Liste biçiminin disk (içi dolu daire) şeklinde olmasını sağlar."<br>
+<strong>circle:</strong> "  Liste biçiminin çember şeklinde olmasını sağlar."<br>
+<strong>square:</strong> "  Liste biçiminin kare olmasını sağlar."<br>
+<strong>decimal:</strong> "  Liste biçiminin rakamlardan oluşmasını sağlar."<br>
+<strong>lower-roman :</strong> " Liste biçiminin i,ii,iii gibi küçük roma rakamlarından oluşmasını sağlar."<br>
+<strong>upper-roman:</strong> " Liste biçiminin I,II,II gibi büyük roma rakamlarından oluşmasını sağlar.."<br>
+<strong>lower-alpha:</strong> " Liste biçiminin a,b,c şeklinde küçük harf olmasını sağlar."<br>
+<strong>upper-alpha:</strong> "  Liste biçiminin A,B,C şeklinde büyük harf olmasını sağlar."<br>
+<strong>none :</strong> " Listenin simgesiz olmasını sağlar."<br>
+<strong>inside:</strong> "  Listenin ikinci satırının en soldan başlamasını sağlar."<br>
+<strong>outside:</strong> " Listenin ikinci satırının ilk satır ile aynı yerden başlamasını sağlar."<br>
+<strong>list-style-image:</strong> " Liste biçiminin resim olmasını sağlar."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi">
+<p><strong><br></strong></p>
+   <h4 style="text-align:center">Katman Özellikleri</h4>
+   <p><strong><br></strong></p>
+<strong>position:</strong> " Katmanın yerinin belirlenmesini sağlar."<br>
+<strong>absolute:</strong> " Katmanın yerinin pencere esas alınarak belirlenmesini sağlar."<br>
+<strong>relative:</strong> " Katmanın yerinin bir önceki katman esas alınarak belirlenmesini sağlar."<br>
+<strong>static:</strong> " Katmanın yerinin sabit olarak (Varsayılan olan sol üst köşe) belirlenmesini sağlar."<br>
+<strong>top:</strong> " Katmanın üstten ne kadar aşağıda olması gerektiğini belirler."<br>
+<strong>left::</strong> " Katmanın soldan ne kadar içeride olması gerektiğini belirler."<br>
+<strong>width:</strong> " Katmanın genişliğinin ne kadar olacağını belirler."<br>
+<strong>height:</strong> " Katmanın yüksekliğinin ne kadar olacağını belirler."<br>
+<strong>overflow:</strong> "Katmanın belirtilen yükseklik ve genişliğe sığmayan kısmına ne olacağını belirler."<br>
+<strong>auto:</strong> " Otomatik olarak belirlenir."<br>
+<strong>scroll:</strong> " Kaydırma çubuğu ekleyerek görünmesini sağlar."<br>
+<strong>visible:</strong> "Katmanı belirtilen boyutların dışına taşırarak sığmayan yerlerin görünmesini sağlar."<br>
+<strong>hidden:</strong> " Sığmayan yerleri gizler."<br>
+<strong>visibility:</strong> " Katmanın görünebilirlik ayarını yapar."<br>
+<strong>visible:</strong> " Katmanın görünür olmasını sağlar."<br>
+<strong>hidden:</strong> " Katmanı gizler."<br>
+<strong>z-index:</strong> " Katmanların alttan üste doğru hangi sıra ile gösterileceğini belirler.1 değeri katmanın en altta olacağını belirtir."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi">
+<p><strong><br></strong></p>
+   <h4>Font Özellikleri</h4>
+   <p><strong><br></strong></p>
+<strong>font-family:</strong> " Yazı türünü belirler.(Arial , Verdana gibi.)"<br>
+<strong>font-style:</strong> "  Yazının normal veya sağa eğik olmasını sağlar.(İtalik)"<br>
+<strong>font-variant:</strong> " Yazının normal veya tümünün büyük harflerden oluşmuş olmasını sağlar."<br>
+<strong>font-size:</strong> "  Yazının büyüklüğünü belirler."<br>
+<strong>font-weight:</strong> "  Yazının kalınlık veya inceliğini belirler."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi">
+<p><strong><br></strong></p>
+   <h4 style="text-align:center">TEXT Özellikleri</h4>
+   <p><strong><br></strong></p>
+<strong>word-spacing:</strong> " Kelimeler arasında bırakılacak boşluğu boşluğu belirler."<br>
+<strong>letter-spacing :</strong> "Harfler arasında bırakılacak boşluğu boşluğu belirler."<br>
+<strong>underline:</strong> "Kelimenin altının (Satır altından) çizili olmasını sağlar."<br>
+<strong>text-decoration:</strong> " Linkin altının,üstünün vs. çizgili olup olmayacağını belirler."<br>
+<strong>overline:</strong> " Kelimenin üstünün (Satır üstünden) çizili olmasını sağlar."<br>
+<strong>blink:</strong> "Kelimenin yanıp sönmesini sağlar.(Netscape için)"<br>
+<strong>text-transform:</strong> " Kelimelerin büyük harf veya küçük harflerden oluşmasını sağlar."<br>
+<strong>capitalize:</strong> " Kelimelerin ilk harflerinin büyük olmasını sağlar."<br>
+<strong>uppercase:</strong> " Kelimelerin bütün harflerinin büyük olmasını sağlar."<br>
+<strong>lowercase:</strong> " Kelimelerin bütün harflerinin küçük olmasını sağlar."<br>
+<strong>text-align:</strong> " Metnin dikey olarak nasıl hizalanacağını belirler."<br>
+<strong>left :</strong> " Metni sola yaslar."<br>
+<strong>right:</strong> "Metni sağa yaslar."<br>
+<strong>center:</strong> " Metni ortalar."<br>
+<strong>justify:</strong> "  Metni iki yana yaslar."<br>
+<strong>text-indent:</strong> " Metnin ilk satırının soldan ne kadar içerden başlayacağını belirler."<br>
+<strong>line-height:</strong> " Satırın yüksekliğini ayarlar.(Yüksek değer verildiğinde satırlar arasındaki boşluk artar.)"<br>
+<strong>first-line:</strong> "Metnin ilk satırının biçimlendirilmesini sağlar."<br>
+<strong>first-letter :</strong> " Metnin ilk harfinin biçimlendirilmesini sağlar."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi">
+<p><strong><br></strong></p>
+   <h4 style="text-align:center">Tablo Özellikleri</h4>
+   <p><strong><br></strong></p>
+<strong>margin:</strong> "Tablo ile pencerenin kenarları arasında bırakılacak boşluğu belirler."<br>
+<strong>margin-top :</strong> " Tablo ile pencerenin üst kenarı arasında bırakılacak boşluğu belirler."<br>
+<strong>margin-right:</strong> "Tablo ile pencerenin sağ kenarı arasında bırakılacak boşluğu belirler."<br>
+<strong>margin-bottom:</strong> " Tablo ile pencerenin alt kenarı arasında bırakılacak boşluğu belirler."<br>
+<strong>margin-left ::</strong> "Tablo ile pencerenin sol kenarı arasında bırakılacak boşluğu belirler."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi1">
+<p><strong><br></strong></p>
+<strong>padding:</strong> " Tablo kenarları ile tablo içeriği (Yazı vb.) arasında bırakılacak boşluğu belirler."<br>
+<strong>padding-top:</strong> " Tablonun üst kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler."<br>
+<strong>padding-right :</strong> " Tablonun sağ kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler."<br>
+<strong>padding-bottom:</strong> " Tablonun alt kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler."<br>
+<strong>padding-left:</strong> " Tablonun sol kenarı ile tablo içeriği arasında bırakılacak boşluğu belirler."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi1">
+<p><strong><br></strong></p>
+<strong>border:</strong> " Tablonun kenarlarının şekillendirilmesini sağlar."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi1">
+<p><strong><br></strong></p>
+<strong>border-top:</strong> " Tablonun üst kenarının şekillendirilmesini sağlar."<br>
+<strong>border-left:</strong> " Tablonun sol kenarının şekillendirilmesini sağlar."<br>
+<strong>border-bottom:</strong> " Tablonun alt kenarının şekillendirilmesini sağlar."<br>
+<strong>border-right:</strong> " Tablonun sağ kenarının şekillendirilmesini sağlar."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi1">
+<p><strong><br></strong></p>
+<strong>border-width:</strong> " Tablonun kenarlarının kalınlığını belirler."<br>
+<strong>border-top-width:</strong> " Tablonun üst kenarının kalınlığını belirler."<br>
+<strong>border-right-width:</strong> " Tablonun sağ kenarının kalınlığını belirler."<br>
+<strong>border-bottom-width:</strong> " Tablonun alt kenarının kalınlığını belirler."<br>
+<strong>border-left-width:</strong> " Tablonun sol kenarının kalınlığını belirler."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi1">
+<p><strong><br></strong></p>
+<strong>border-style:</strong> " Tablonun kenarlık türünü belirler."<br>
+<strong>border-top-style:</strong> " Tablonun üst kenarlık türünü belirler."<br>
+<strong>border-right-style:</strong> " Tablonun sağ kenarlık türünü belirler."<br>
+<strong>border-bottom-style:</strong> " Tablonun alt kenarlık türünü belirler."<br>
+<strong>border-left-style:</strong> " Tablonun sol kenarlık türünü belirler.."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi1">
+<p><strong><br></strong></p>
+<strong>border-color:</strong> " Tablonun kenarlarının rengini belirler."<br>
+<strong>border-top-color:</strong> " Tablonun üst kenarlarının rengini belirler."<br>
+<strong>border-right-color:</strong> " Tablonun sağ kenarlarının rengini belirler."<br>
+<strong>border-bottom-color:</strong> " Tablonun alt kenarlarının rengini belirler."<br>
+<strong>border-left-color:</strong> " Tablonun sol kenarlarının rengini belirler."<br>
+</p> <p><strong><br></strong></p>
+<hr class="cizgi1">
+<p><strong><br></strong></p>
+<strong>color:</strong> " Tabloda geçen metnin rengini belirler."<br>
+<strong>width:</strong> " Tablonon genişliğini belirler."<br>
+<strong>height:</strong> " Tablonun yüksekliğini belirler."<br>
+
+</div><br>
+
+
+
+
+</body>
+</html>
